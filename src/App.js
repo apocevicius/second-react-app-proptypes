@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='App'>
       <h2>App</h2>
-      <CounterProp />
+      <CounterProp name='London' initVal='3' />
     </div>
   );
 }
