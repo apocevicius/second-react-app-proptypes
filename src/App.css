@@ -1,0 +1,50 @@
+.App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.btn-adult {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.btn-teen {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+/* Counter */
+.counter-container {
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 3px 4px 10px gray;
+  text-align: center;
+  display: inline-block;
+}
+
+.counter-list {
+  display: flex;
+  gap: 1em;
+}
+.counter__title span {
+  font-weight: normal;
+}
+
+.counter-negative {
+  background-color: rgb(255, 194, 183);
+}
+.counter-positive {
+  background-color: rgb(166, 244, 166);
+}
+.counter__value {
+  font-weight: normal;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+/* Person  */
+.person {
+  padding: 1rem;
+  display: inline-block;
+  border: 1px solid #000;
+  text-align: center;
+}
